@@ -27,7 +27,6 @@ if StrictVersion(tf.__version__) < StrictVersion('1.12.0'):
 
 # This is needed to display the images.
 get_ipython().run_line_magic('matplotlib', 'inline')
-print(2)
 
 
 # ## Object detection imports
